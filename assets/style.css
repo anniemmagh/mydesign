@@ -71,46 +71,55 @@ body {
 
 
 
-.typing div{
+.typing div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .typing > *{
+}
+
+.typing>* {
     overflow: hidden;
     white-space: nowrap;
     animation: typingAnim 3s steps(50);
-  }
-  @keyframes typingAnim {
-    from {width:0}
-    to {width:100%}
-  }
-  .credits{
-	top: calc(70% + 100px);
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	font-size: 20PX;
-	font-weight: 500;
+}
+
+@keyframes typingAnim {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.credits {
+    top: calc(70% + 100px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20PX;
+    font-weight: 500;
     color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.2em; 
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
+
 .glitch {
-  font-size: 80px;
-  line-height: 1;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  position:absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  text-decoration: none;
-  color: #fff;
+    font-size: 80px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
 }
+
 .offcanvas {
     background: #2980b9;
 }
@@ -185,7 +194,7 @@ body {
 
 .btn1:hover:after {
     height: 100%;
-    background:#2933b9;
+    background: #2933b9;
 }
 
 .page-section {
@@ -564,7 +573,7 @@ user agent stylesheet div {
 }
 
 .services .box-services:hover .icon-services i {
-    color:#2933b9;
+    color: #2933b9;
 }
 
 .services .box-services h3 {
@@ -673,7 +682,7 @@ user agent stylesheet div {
 }
 
 .onConner a:nth-child(8) .tooltiptext {
-    background:#2933b9;
+    background: #2933b9;
 }
 
 .onConner a:nth-child(7) .tooltiptext::after {
@@ -725,181 +734,217 @@ user agent stylesheet div {
     margin: 2px;
 }
 
-.center-container{
+.center-container {
     border: 2px solid orangered;
     height: 500px;
     width: 400px;
     display: flex;
     align-items: center;
-    justify-content: center; /*display: grid;place content: center dont work with position absolute; so use display: flex;*/
+    justify-content: center;
+    /*display: grid;place content: center dont work with position absolute; so use display: flex;*/
     position: relative;
 }
-.square{
+
+.square {
     border: 3px solid black;
     width: 200px;
     height: 375px;
     position: absolute;
 }
-#a1{
+
+#a1 {
     animation: a1 5s linear infinite;
 }
-@keyframes a1{
-    50%{
+
+@keyframes a1 {
+    50% {
         border-radius: 100%;
         transform: rotate(180deg);
     }
 }
-#a2{
+
+#a2 {
     animation: a2 5s linear infinite;
 }
-@keyframes a2{
-    50%{
+
+@keyframes a2 {
+    50% {
         border-radius: 100%;
         transform: rotate(170deg);
     }
 }
-#a3{
+
+#a3 {
     animation: a3 5s linear infinite;
 }
-@keyframes a3{
-    50%{
+
+@keyframes a3 {
+    50% {
         border-radius: 100%;
         transform: rotate(160deg);
     }
 }
-#a4{
+
+#a4 {
     animation: a4 5s linear infinite;
 }
-@keyframes a4{
-    50%{
+
+@keyframes a4 {
+    50% {
         border-radius: 100%;
         transform: rotate(150deg);
     }
 }
-#a5{
+
+#a5 {
     animation: a5 5s linear infinite;
 }
-@keyframes a5{
-    50%{
+
+@keyframes a5 {
+    50% {
         border-radius: 100%;
         transform: rotate(140deg);
     }
 }
-#a6{
+
+#a6 {
     animation: a6 5s linear infinite;
 }
-@keyframes a6{
-    50%{
+
+@keyframes a6 {
+    50% {
         border-radius: 100%;
         transform: rotate(130deg);
     }
 }
-#a7{
+
+#a7 {
     animation: a7 5s linear infinite;
 }
-@keyframes a7{
-    50%{
+
+@keyframes a7 {
+    50% {
         border-radius: 100%;
         transform: rotate(120deg);
     }
 }
-#a8{
+
+#a8 {
     animation: a8 5s linear infinite;
 }
-@keyframes a8{
-    50%{
+
+@keyframes a8 {
+    50% {
         border-radius: 100%;
         transform: rotate(110deg);
     }
 }
 
-#a9{
+#a9 {
     animation: a9 5s linear infinite;
 }
-@keyframes a9{
-    50%{
+
+@keyframes a9 {
+    50% {
         border-radius: 100%;
         transform: rotate(100deg);
     }
 }
-#a10{
+
+#a10 {
     animation: a10 5s linear infinite;
 }
-@keyframes a10{
-    50%{
+
+@keyframes a10 {
+    50% {
         border-radius: 100%;
         transform: rotate(90deg);
     }
 }
-#a11{
+
+#a11 {
     animation: a11 5s linear infinite;
 }
-@keyframes a11{
-    50%{
+
+@keyframes a11 {
+    50% {
         border-radius: 100%;
         transform: rotate(80deg);
     }
 }
-#a12{
+
+#a12 {
     animation: a12 5s linear infinite;
 }
-@keyframes a12{
-    50%{
+
+@keyframes a12 {
+    50% {
         border-radius: 100%;
         transform: rotate(70deg);
     }
 }
-#a13{
+
+#a13 {
     animation: a13 5s linear infinite;
 }
-@keyframes a13{
-    50%{
+
+@keyframes a13 {
+    50% {
         border-radius: 100%;
         transform: rotate(60deg);
     }
 }
 
-#a14{
+#a14 {
     animation: a14 5s linear infinite;
 }
-@keyframes a14{
-    50%{
+
+@keyframes a14 {
+    50% {
         border-radius: 100%;
         transform: rotate(50deg);
     }
 }
-#a15{
+
+#a15 {
     animation: a15 5s linear infinite;
 }
-@keyframes a15{
-    50%{
+
+@keyframes a15 {
+    50% {
         border-radius: 100%;
         transform: rotate(40deg);
     }
 }
-#a16{
+
+#a16 {
     animation: a16 5s linear infinite;
 }
-@keyframes a16{
-    50%{
+
+@keyframes a16 {
+    50% {
         border-radius: 100%;
         transform: rotate(30deg);
     }
 }
-#a17{
+
+#a17 {
     animation: a17 5s linear infinite;
 }
-@keyframes a17{
-    50%{
+
+@keyframes a17 {
+    50% {
         border-radius: 100%;
         transform: rotate(20deg);
     }
 }
-#a18{
+
+#a18 {
     animation: a18 5s linear infinite;
 }
-@keyframes a18{
-    50%{
+
+@keyframes a18 {
+    50% {
         border-radius: 100%;
         transform: rotate(10deg);
     }
@@ -1054,7 +1099,7 @@ user agent stylesheet div {
 
     transition: transform .5s ease, background .5s .3s ease;
 
-    background:#2933b9;
+    background: #2933b9;
 
     font-size: 22px;
     position: absolute;
